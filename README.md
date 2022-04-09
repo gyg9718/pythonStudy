@@ -76,7 +76,7 @@ pyautogui.position() : 마우스의 좌표를 입력받습니다.
 
 pyautogui.moveTo(x,y) : x,y의 좌표로 이동합니다. 절대 좌표입니다.
 
-pyautogui.miveTo(x,y,시간) : x,y의 좌표로 지정된 시간동안 이동합니다.
+pyautogui.mveTo(x,y,시간) : x,y의 좌표로 지정된 시간동안 이동합니다.
 
 pyautogui.moveRel(x,y) : 현재 마우스 위치로 부터 x,y픽셀만큼이동합니다
 
