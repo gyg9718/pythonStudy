@@ -15,6 +15,7 @@ Python Programming Is Easy!
 
 
 문자열 찾기 함수
+
 count(), find(), rfond(), index(), rindex(), startswith() -> True False로 반환, endwith()
 ```python                                             
 >>> print(str.count('i')) # 문자열에서 'i'개수를 반환
@@ -26,8 +27,11 @@ count(), find(), rfond(), index(), rindex(), startswith() -> True False로 반�
 >>> print(str.index('on')) # 문자열에서 'on'의 처음 위치. 없으면 ValueError
 4
 ```
-
-
+문자열 개수 세기 함수 count()
+```python
+>>> print('apple pineapple'.count('pl))
+2
+```
 
 
 
@@ -37,6 +41,7 @@ count(), find(), rfond(), index(), rindex(), startswith() -> True False로 반�
 
 
 문자열 공백 삭제, 제거 함수
+
 strip(), rstrip(), lstrip(), replace()
 
 str = ' hello '
@@ -54,6 +59,7 @@ str = ' hello '
       
       
 문자열 분리, 결합 함수
+
 split(), sqlitlines(), join()
 
 ```python
@@ -71,6 +77,7 @@ str = 'abc'
   
       
 문자열 정렬, 채우기 함수
+
 center(), ljust(), rjust(), zfill()
 ```python
 str = 'abc'
