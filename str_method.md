@@ -1,6 +1,6 @@
 str = 'Python programming is easy!'
 
-기본 함수
+## 기본 함수
 ```python
 >>> print(str.upper()) # 문자열을 모두 대문자로 변환
 PYTHON PROGRAMMING IS EASY! 
@@ -14,7 +14,7 @@ Python Programming Is Easy!
 
 
 
-문자열 찾기 함수
+### 문자열 찾기 함수
 
 count(), find(), rfond(), index(), rindex(), startswith() -> True False로 반환, endwith()
 ```python                                             
@@ -40,7 +40,7 @@ count(), find(), rfond(), index(), rindex(), startswith() -> True False로 반�
 
 
 
-문자열 공백 삭제, 제거 함수
+### 문자열 공백 삭제, 제거 함수
 
 strip(), rstrip(), lstrip(), replace()
 
@@ -58,7 +58,7 @@ str = ' hello '
       
       
       
-문자열 분리, 결합 함수
+### 문자열 분리, 결합 함수
 
 split(), sqlitlines(), join()
 
@@ -76,7 +76,7 @@ str = 'abc'
 
   
       
-문자열 정렬, 채우기 함수
+### 문자열 정렬, 채우기 함수
 
 center(), ljust(), rjust(), zfill()
 ```python
@@ -97,7 +97,7 @@ print(str.senter(10, -))
 ```
 
       
- 메서드 체이닝
+## 메서드 체이닝
 ```
  문자열 메서드는 처리한 결과를 반환하도록 만들어져 있습니다. 따라서 메서드를 계속 연결해 호출하는 메서드 체이닝(method channing)이 가능합니다.
 ```
