@@ -79,7 +79,7 @@ for letter in 'Python':
 P y t h o n
 위 문자열을 이용한 for문의 코드중 print()줄에서 end=' '을 지정했으므로 줄바꿈이 되지않고, 각 문자가 공백으로 띄워져서 출력됩니다.
 'Python'부분을 reversed('Python')으로 바꾸어 출력을 반대로 나오게 할수도 있습니다.
-
+```
 
 
 ## while반복문
