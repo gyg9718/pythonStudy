@@ -90,3 +90,5 @@ while i < 100:                     # while 조건식(조건 충족시 반복할 
     print('hello. world!')         # 반복할 코드
     i += 1                         # 변화식
 ```
+
+<img width="600" height="500" src=".././pic/statement_whileloop.png"></img>
