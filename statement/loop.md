@@ -88,7 +88,40 @@ while문의 모양입니다.
 i = 0                              # 초기식
 while i < 100:                     # while 조건식(조건 충족시 반복할 코드 실행)
     print('hello. world!')         # 반복할 코드
-    i += 1                         # 변화식
+    i += 1                         # 변화식(반복할 코드 중 포함)
 ```
 
-<img width="600" height="500" src=".././pic/statement_whileloop.png"></img>
+<img width="600" height="600" src=".././pic/statement_whileloop.png"></img>
+```python
+i = 100
+while i > 0
+    print(hello, wolrd!', i)
+    i -= 0
+```
+과 같이 i의 값을 줄이는 코드도 작성 가능합니다.
+
+```python
+while True:
+    print('Hello, world!')
+```
+의 형태와 같이 while의 조건식에 True(1)를 집어넣으면 무한 반복문을 사용 가능합니다.
+```
+
+## break, continue
+for문에서 continue로 코드실행 건너뛰기
+```python
+for i in range(100):       # 0부터 99까지 증가하면서 100번 반복
+    if i % 2 == 0          # i를 2로 나누었을 때 나머지가 0면 짝수
+        continue           # 아래코드를 실행하지 않고 건너뜀
+    print(i)
+```
+실행결과
+```python
+1
+3
+5
+...(생략)
+95
+97
+99
+```
